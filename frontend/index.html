@@ -1,0 +1,140 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ResQRoute | Emergency Route Planner</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Leaflet map library -->
+    <link
+        rel="stylesheet"
+        href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    />
+</head>
+<body>
+    <header class="topbar">
+       
+<a class="brand" href="#">
+    <span>ResQRoute<span class="brand-period"></span>
+        <small>SMART ROUTE PLANNING</small>
+    </span>
+</a>
+
+
+        <div class="system-status">
+            <span class="status-dot"></span>
+            Routing system
+            <strong id="systemStatus">Demo mode</strong>
+        </div>
+    </header>
+
+    <main class="layout">
+        <aside class="sidebar">
+            <div class="intro">
+                <h1>Every second<br />matters</h1>
+                <p>Plan efficient journeys across Amritsar's road network.</p>
+            </div>
+
+            <section class="panel">
+                <h2>Plan your route</h2>
+
+                <label for="startPoint">Starting destination</label>
+                <select id="startPoint">
+                    <option value="">Choose starting point</option>
+                </select>
+
+                <div class="route-connector">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+
+                <label for="endPoint">Destination</label>
+                <select id="endPoint">
+                    <option value="">Choose destination</option>
+                </select>
+
+                <button id="findRoute" class="primary-btn">
+                    Find shortest route <span>→</span>
+                </button>
+
+                <p id="message" class="message" role="status">
+                    Select two destinations to get started.
+                </p>
+            </section>
+
+            <section class="panel result-panel">
+                <div class="section-heading">
+                    <h2>Route summary</h2>
+                    <span class="tag">RESULT</span>
+                </div>
+
+                <div class="metric">
+                    <div>
+                        <span class="metric-label">Total distance</span>
+                        <div class="metric-value" id="distance">— <small>km</small></div>
+                    </div>
+                    <div class="metric-icon">↗</div>
+                </div>
+
+                <div class="metric">
+                    <div>
+                        <span class="metric-label">Road segments in route</span>
+                        <div class="metric-value" id="segments">—</div>
+                    </div>
+                    <div class="metric-icon">⌁</div>
+                </div>
+
+                <div class="route-details">
+                    <span class="status-dot" id="routeDot"></span>
+                    <span id="routeStatus">Waiting for route</span>
+                </div>
+            </section>
+
+            <section class="panel">
+                <div class="section-heading">
+                    <h2>Map legend</h2>
+                </div>
+                <div class="legend-item">
+                    <span class="legend-line route-line"></span>
+                    Calculated route
+                </div>
+                <div class="legend-item">
+                    <span class="legend-line blocked-line"></span>
+                    Blocked road (demo)
+                </div>
+                <p class="footnote">
+                    This planning tool is a project prototype, not a live emergency
+                    dispatch service. Traffic and road closures are not live.
+                </p>
+            </section>
+        </aside>
+
+        <section class="map-section">
+            <div class="map-heading">
+                <div>
+                    <span class="eyebrow">LIVE MAP VIEW</span>
+                    <h2>Amritsar road network</h2>
+                    <p>Explore the map and plan a route between destinations.</p>
+                </div>
+                <div class="map-badge">
+                    <span class="status-dot"></span> Map ready
+                </div>
+            </div>
+
+            <div id="map"></div>
+
+            <div class="map-footer">
+                <span>Map data © OpenStreetMap contributors</span>
+                <span>Algorithm: Dijkstra's shortest path</span>
+            </div>
+        </section>
+    </main>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
