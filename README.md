@@ -1,8 +1,8 @@
 # ResQRoute
 
-**A C++-based emergency route finder using Dijkstra's shortest-path algorithm.**
+A C++-based emergency route finder using Dijkstra's shortest-path algorithm.
 
-ResQRoute identifies the shortest available route between selected destinations in Amritsar using OpenStreetMap road-network data. It also supports road closures and route recalculation when a road becomes unavailable.
+ResQRoute identifies the shortest available route between selected destinations in Amritsar using OpenStreetMap road-network data. It also supports simulated road closures and route recalculation.
 
 ## Features
 
@@ -11,14 +11,15 @@ ResQRoute identifies the shortest available route between selected destinations 
 - **Road Network Modeling:** Represents locations and road connections using a graph.
 - **Road Closure Simulation:** Blocks a road segment and recalculates the route.
 - **Route Recalculation:** Finds an alternative path when the original route becomes unavailable.
-- **Named Destinations:** Supports selecting destinations such as hospitals, railway stations, and landmarks.
+- **Named Destinations:** Supports destinations such as hospitals, railway stations, and landmarks.
 - **Real-World Map Data:** Uses OpenStreetMap road-network data for the Amritsar area.
 
 ## Tech Stack
 
 - **Language:** C++
-- **Core Concepts:** Graphs, Dijkstra's Algorithm, Priority Queues, Greedy Algorithms
-- **Data Structures:** Adjacency Lists, Min-Heap, Vectors
+- **Algorithms:** Dijkstra's Shortest-Path Algorithm
+- **Data Structures:** Graphs, Adjacency Lists, Min-Heap, Vectors
+- **Core Concepts:** Graph Traversal, Greedy Algorithms, Shortest-Path Optimization
 - **Tools:** GCC, Git, GitHub
 - **Data Source:** OpenStreetMap
 
@@ -31,15 +32,16 @@ ResQRoute identifies the shortest available route between selected destinations 
 5. Allows a road segment to be blocked.
 6. Recalculates the route to find an alternative path when possible.
 
-## Algorithm
+## Algorithm Complexity
 
-Dijkstra's algorithm calculates the shortest path in a weighted graph with non-negative edge weights.
+Dijkstra's algorithm uses an adjacency list and a min-heap to efficiently find the shortest path in a weighted graph with non-negative edge weights.
 
-A min-heap helps process the closest unvisited node efficiently.
+- **Time Complexity:** \(O((V + E)\log V)\)
+- **Space Complexity:** \(O(V + E)\)
 
-**Time Complexity:** \(O((V + E)\log V)\) using an adjacency list and binary min-heap, where \(V\) is the number of vertices and \(E\) is the number of edges.
-
-**Space Complexity:** \(O(V + E)\) for the graph and auxiliary data structures.
+Where:
+- \(V\) represents the number of vertices (nodes).
+- \(E\) represents the number of edges (road connections).
 
 ## Project Structure
 
@@ -55,7 +57,12 @@ ResQRoute/
 │   ├── places.csv
 │   └── places.json
 ├── scripts/
+│   ├── add_landmarks.py
+│   ├── convert_places.py
+│   ├── download_osm.py
+│   └── find_places.py
 ├── tests/
+│   └── test_graph.cpp
 ├── .gitignore
 └── README.md
 ```
@@ -67,23 +74,9 @@ ResQRoute/
 - A C++ compiler supporting C++17
 - Python 3 for optional data-processing scripts
 
-## Current Limitations
-
-- Route distances are estimates, not verified driving distances.
-- Live traffic, emergency dispatch, and real-time road closures are not implemented.
-- Road-network coverage is limited to the downloaded map area.
-- Destination matching depends on the available map data.
-
-## Future Improvements
-
-- Interactive map visualization of the selected route.
-- More robust handling of one-way roads and road closures.
-- Expanded automated tests for routing edge cases.
-- Improved route instructions and destination matching.
-
 ## Data Attribution
 
-Road-network data is sourced from [OpenStreetMap](https://www.openstreetmap.org/). OpenStreetMap data is available under the Open Database License (ODbL). See the [OpenStreetMap Copyright and License page](https://www.openstreetmap.org/copyright) for details.
+Road-network data is sourced from [OpenStreetMap](https://www.openstreetmap.org/), which is available under the Open Database License (ODbL). See the [OpenStreetMap Copyright and License page](https://www.openstreetmap.org/copyright) for details.
 
 ---
 
