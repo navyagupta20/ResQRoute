@@ -67,22 +67,6 @@ ResQRoute/
 - A C++ compiler supporting C++17
 - Python 3 for optional data-processing scripts
 
-### Compile
-
-Run these commands from the project root in PowerShell:
-
-```powershell
-g++ -std=c++17 -O2 src\main.cpp src\graph.cpp -o ResQRoute.exe
-```
-
-### Execute
-
-```powershell
-.\ResQRoute.exe
-```
-
-If GCC is not on your PATH, use the full path to your installed compiler.
-
 ## Current Limitations
 
 - Route distances are estimates, not verified driving distances.
