@@ -16,7 +16,7 @@ ResQRoute identifies the shortest available route between selected destinations 
 
 ## Tech Stack
 
-- **Language:** C++
+- **Languages:** C++, Python
 - **Algorithms:** Dijkstra's Shortest-Path Algorithm
 - **Data Structures:** Graphs, Adjacency Lists, Min-Heap, Vectors
 - **Core Concepts:** Graph Traversal, Greedy Algorithms, Shortest-Path Optimization
@@ -34,7 +34,7 @@ ResQRoute identifies the shortest available route between selected destinations 
 
 ## Algorithm Complexity
 
-Dijkstra's algorithm uses an adjacency list and a min-heap to efficiently find the shortest path in a weighted graph with non-negative edge weights.
+Dijkstra's algorithm uses an adjacency list and a min-heap to find the shortest path in a weighted graph with non-negative edge weights.
 
 - **Time Complexity:** \(O((V + E)\log V)\)
 - **Space Complexity:** \(O(V + E)\)
@@ -67,12 +67,10 @@ ResQRoute/
 └── README.md
 ```
 
-## Run Locally
-
-### Prerequisites
+## Prerequisites
 
 - A C++ compiler supporting C++17
-- Python 3 for optional data-processing scripts
+- Python 3 for data-processing scripts
 
 ## Data Attribution
 
