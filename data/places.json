@@ -1,0 +1,352 @@
+[
+  {
+    "name": "RAM TIRTH ROAD BYPASS",
+    "latitude": 31.6459463,
+    "longitude": 74.8233323,
+    "type": "bus_station",
+    "osm_id": 568038101
+  },
+  {
+    "name": "Beri Maternity Hospital",
+    "latitude": 31.6325186,
+    "longitude": 74.8491806,
+    "type": "hospital",
+    "osm_id": 1009380339
+  },
+  {
+    "name": "Sadda Pind",
+    "latitude": 31.6437328,
+    "longitude": 74.8128239,
+    "type": "landmark",
+    "osm_id": 4599752652
+  },
+  {
+    "name": "Cantonment",
+    "latitude": 31.6438098,
+    "longitude": 74.8489952,
+    "type": "suburb",
+    "osm_id": 6959294705
+  },
+  {
+    "name": "Beri Maternity Centre",
+    "latitude": 31.6325754,
+    "longitude": 74.8437419,
+    "type": "hospital",
+    "osm_id": 7051154512
+  },
+  {
+    "name": "Ranjit Hospital",
+    "latitude": 31.6332243,
+    "longitude": 74.8436724,
+    "type": "hospital",
+    "osm_id": 7063550200
+  },
+  {
+    "name": "Namita Hospital",
+    "latitude": 31.6295749,
+    "longitude": 74.8155722,
+    "type": "hospital",
+    "osm_id": 7063611459
+  },
+  {
+    "name": "Simran Hospital and Childcare Centre",
+    "latitude": 31.6301509,
+    "longitude": 74.8208065,
+    "type": "hospital",
+    "osm_id": 7063632733
+  },
+  {
+    "name": "Chandan Hospitals",
+    "latitude": 31.6311849,
+    "longitude": 74.8454909,
+    "type": "hospital",
+    "osm_id": 7071491162
+  },
+  {
+    "name": "Arora Hospital, Amritsar",
+    "latitude": 31.6482248,
+    "longitude": 74.8250079,
+    "type": "hospital",
+    "osm_id": 7071491167
+  },
+  {
+    "name": "Jai Kamal Eye Hospital",
+    "latitude": 31.629252,
+    "longitude": 74.8060923,
+    "type": "hospital",
+    "osm_id": 7079092966
+  },
+  {
+    "name": "Bhai Himmat Singh Memorial Sattelite Hospital",
+    "latitude": 31.638656,
+    "longitude": 74.8083349,
+    "type": "hospital",
+    "osm_id": 7150766801
+  },
+  {
+    "name": "Military Hospital",
+    "latitude": 31.644095,
+    "longitude": 74.8423579,
+    "type": "hospital",
+    "osm_id": 7865765814
+  },
+  {
+    "name": "Amritsar Eye Hospital",
+    "latitude": 31.6310968,
+    "longitude": 74.8305034,
+    "type": "hospital",
+    "osm_id": 7865765815
+  },
+  {
+    "name": "Navpreet Hospital",
+    "latitude": 31.6333823,
+    "longitude": 74.844429,
+    "type": "hospital",
+    "osm_id": 7865765817
+  },
+  {
+    "name": "Neelkanth Hospital",
+    "latitude": 31.6727525,
+    "longitude": 74.8772517,
+    "type": "hospital",
+    "osm_id": 4023675689
+  },
+  {
+    "name": "Beams Hospital Pvt.Ltd.",
+    "latitude": 31.6512351,
+    "longitude": 74.8746964,
+    "type": "hospital",
+    "osm_id": 7050889188
+  },
+  {
+    "name": "Sukh Sagar Hospital and Laproscopy Center",
+    "latitude": 31.6505388,
+    "longitude": 74.8696066,
+    "type": "hospital",
+    "osm_id": 7051034587
+  },
+  {
+    "name": "Kartar Kaur Memorial Hospital",
+    "latitude": 31.672396,
+    "longitude": 74.8776682,
+    "type": "hospital",
+    "osm_id": 7053926644
+  },
+  {
+    "name": "Ajit Hospital",
+    "latitude": 31.6505322,
+    "longitude": 74.8647263,
+    "type": "hospital",
+    "osm_id": 7059280754
+  },
+  {
+    "name": "Badri Nath Hospital",
+    "latitude": 31.6915806,
+    "longitude": 74.8855832,
+    "type": "hospital",
+    "osm_id": 7063256250
+  },
+  {
+    "name": "Dr. Sukhdeep Kahlon Orthodentic Dental Clinic",
+    "latitude": 31.6584648,
+    "longitude": 74.8817584,
+    "type": "hospital",
+    "osm_id": 7063550152
+  },
+  {
+    "name": "Preet Hospital, Amritsar",
+    "latitude": 31.6593889,
+    "longitude": 74.8727375,
+    "type": "hospital",
+    "osm_id": 7063611483
+  },
+  {
+    "name": "Navpreet Hospital",
+    "latitude": 31.6512757,
+    "longitude": 74.879048,
+    "type": "hospital",
+    "osm_id": 7063635701
+  },
+  {
+    "name": "Family Hospital",
+    "latitude": 31.6591703,
+    "longitude": 74.8813654,
+    "type": "hospital",
+    "osm_id": 7063757915
+  },
+  {
+    "name": "Gupta Hospital, Amritsar",
+    "latitude": 31.6522375,
+    "longitude": 74.8818657,
+    "type": "hospital",
+    "osm_id": 7063796130
+  },
+  {
+    "name": "Mundh Hospital",
+    "latitude": 31.6511184,
+    "longitude": 74.8632382,
+    "type": "hospital",
+    "osm_id": 7071388321
+  },
+  {
+    "name": "Bajwa Hospital, Amritsar",
+    "latitude": 31.6682698,
+    "longitude": 74.8761,
+    "type": "hospital",
+    "osm_id": 7071675907
+  },
+  {
+    "name": "Dr. Hardas Singh Orthopaedic and Superspeciality Research Centre",
+    "latitude": 31.6546958,
+    "longitude": 74.8813555,
+    "type": "hospital",
+    "osm_id": 7074314666
+  },
+  {
+    "name": "Shri Muni Lal Chopra Memorial Hospital",
+    "latitude": 31.658727,
+    "longitude": 74.8815713,
+    "type": "hospital",
+    "osm_id": 7079233857
+  },
+  {
+    "name": "Akashdeep Hospital",
+    "latitude": 31.6700353,
+    "longitude": 74.8931468,
+    "type": "hospital",
+    "osm_id": 7865765789
+  },
+  {
+    "name": "Life Kare Multi Super Speciality Hospital",
+    "latitude": 31.6649453,
+    "longitude": 74.8747074,
+    "type": "hospital",
+    "osm_id": 7865765795
+  },
+  {
+    "name": "Hartej Hospital",
+    "latitude": 31.650141,
+    "longitude": 74.854292,
+    "type": "hospital",
+    "osm_id": 7865765804
+  },
+  {
+    "name": "Florem Hospital",
+    "latitude": 31.67128,
+    "longitude": 74.894344,
+    "type": "hospital",
+    "osm_id": 7865765805
+  },
+  {
+    "name": "Dr. Adarsh Heart & Superspeciality Hospital",
+    "latitude": 31.656672,
+    "longitude": 74.873014,
+    "type": "hospital",
+    "osm_id": 7865765812
+  },
+  {
+    "name": "Swift Hospital",
+    "latitude": 31.650625,
+    "longitude": 74.886072,
+    "type": "hospital",
+    "osm_id": 7865765816
+  },
+  {
+    "name": "New Life Hospital",
+    "latitude": 31.6601409,
+    "longitude": 74.8898671,
+    "type": "hospital",
+    "osm_id": 7865765819
+  },
+  {
+    "name": "DR RANJIT ORTHOCARE CENTRE",
+    "latitude": 31.6574479,
+    "longitude": 74.8596392,
+    "type": "hospital",
+    "osm_id": 8266219970
+  },
+  {
+    "name": "Vidhya Sagar Mental Hospital",
+    "latitude": 31.6612999,
+    "longitude": 74.8779627,
+    "type": "hospital",
+    "osm_id": 264051624
+  },
+  {
+    "name": "Guru Nanak Dev Hospital",
+    "latitude": 31.6548476,
+    "longitude": 74.8863462,
+    "type": "hospital",
+    "osm_id": 264051625
+  },
+  {
+    "name": "Golden Temple",
+    "latitude": 31.62,
+    "longitude": 74.8765,
+    "type": "landmark",
+    "osm_id": null
+  },
+  {
+    "name": "Jallianwala Bagh",
+    "latitude": 31.6206,
+    "longitude": 74.88,
+    "type": "landmark",
+    "osm_id": null
+  },
+  {
+    "name": "Durgiana Temple",
+    "latitude": 31.634,
+    "longitude": 74.8723,
+    "type": "landmark",
+    "osm_id": null
+  },
+  {
+    "name": "Amritsar Junction Railway Station",
+    "latitude": 31.633,
+    "longitude": 74.8656,
+    "type": "railway_station",
+    "osm_id": null
+  },
+  {
+    "name": "Amritsar ISBT Bus Stand",
+    "latitude": 31.635,
+    "longitude": 74.882,
+    "type": "bus_station",
+    "osm_id": null
+  },
+  {
+    "name": "Hall Bazaar",
+    "latitude": 31.626,
+    "longitude": 74.877,
+    "type": "shopping",
+    "osm_id": null
+  },
+  {
+    "name": "Partition Museum",
+    "latitude": 31.626,
+    "longitude": 74.879,
+    "type": "landmark",
+    "osm_id": null
+  },
+  {
+    "name": "Gobindgarh Fort",
+    "latitude": 31.63,
+    "longitude": 74.872,
+    "type": "landmark",
+    "osm_id": null
+  },
+  {
+    "name": "Guru Nanak Dev University",
+    "latitude": 31.634,
+    "longitude": 74.823,
+    "type": "university",
+    "osm_id": null
+  },
+  {
+    "name": "Sri Guru Ram Dass Jee International Airport",
+    "latitude": 31.7096,
+    "longitude": 74.7973,
+    "type": "airport",
+    "osm_id": null
+  }
+]

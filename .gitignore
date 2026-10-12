@@ -1,0 +1,5 @@
+ResQRoute.exe
+*.exe
+*.o
+*.obj
+.vscode/
